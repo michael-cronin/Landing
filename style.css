@@ -1,11 +1,14 @@
+
 .top {
     
+    padding: 75px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
 img {
-    height: 400px;
+  
+    height: 350px;
   }
 
   .header2 {
@@ -18,10 +21,14 @@ img {
   .links {
     font-size: 18px;
     color: #E5E7EB;
+    align-items: center;
   }
 
   .button{
     background-color: #3882F6;
+    width: 50px;
+    padding: 18px;
+    
   }
   .header3 {
     font-size: 36px;
@@ -35,3 +42,36 @@ img {
     font-style: italic;
     color: #1F2937;
   }
+
+ .banner {
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .links {
+    display:flex;
+    gap: 18px;
+    
+ }
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+}
+
+.middletext {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+
+
+
+
+
