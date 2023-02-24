@@ -1,141 +1,134 @@
-
+body{
+    margin:0;
+}
 .top {
-    
-    padding-bottom: 75px;
-    background-color: #1F2937;
-    color: #F9FAF8;
+  padding-bottom: 75px;
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
+.header2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
 
-  
+.links {
+  font-size: 18px;
+  color: #e5e7eb;
+  align-items: center;
+  cursor: pointer;
+}
 
-  .header2 {
-    font-size: 48px;
-    font-weight: bolder;
+/* I noticed a few classes are in two spots, keep them in one to avoid confusion. I set the border here using border: 2px solid white; also fixed the issue with the cursor, changed it to a "click" finger when you hover over the buttons */
+.button {
+  background-color: #3882f6;
+  width: 50px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  width: 100px;
+  font-weight: bolder;
+  font-size: x-large;
+  cursor: pointer;
+}
+.header3 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
 
-  }
+/*This is the quote's outer wrapper, so move the background color here*/
+.container {
+  background-color: #e5e7eb;
+}
 
+/* Here you want to give a max-wdith property to the quote, so it doesn't take up the whole screen with and margin:0 auto will center it*/
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 150px;
+}
 
+.banner {
+  padding: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .links {
-    font-size: 18px;
-    color: #E5E7EB;
-    align-items: center;
-  }
-
-  .button{
-    background-color: #3882F6;
-    width: 50px;
-    padding: 10px 18px;
-    border-radius: 10px;
-    
-  }
-  .header3 {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-  }
-
-  .quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-  }
-
- .banner {
-    padding: 18px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
- }
-
- .links {
-    list-style: none;
-    display:flex;
-    gap: 18px;
-    
- }
+.links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+}
 
 .middle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-   
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .middletext {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    gap: 10px;
-    padding-right: 175px;
-    
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  padding-right: 175px;
 }
 
 .info {
-    width: 200px;
-    text-align: center;
+  width: 200px;
+  text-align: center;
 }
 
-
 .card {
-    max-width: 100px;
-    padding-left: 40px;
+  max-width: 100px;
+  padding-left: 40px;
 }
 
 .pixel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 150px;
-    gap: 50px;
-}
-
-.quote {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 150px;
-    
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+  gap: 50px;
 }
 
 .signature {
-    align-self: flex-end;
-    padding-right: 100px;
-    font-weight: bolder;
+  align-self: flex-end;
+  padding-right: 100px;
+  font-weight: bolder;
 }
 
 .bottom {
-    display:flex;
-    justify-content: space-around;
-    margin: 100px;
-    background-color: #3882F6;
-    border-color: white;
-    border-radius: 25px;
-    padding: 50px 50px;
-    color: white;
-}
-
-.button {
-    color: white;
-    width: 100px;
-    font-weight: bolder;
-    font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+  background-color: #3882f6;
+  border-color: white;
+  border-radius: 25px;
+  padding: 50px 50px;
+  color: white;
 }
 
 img {
-    border: 5px solid #1F2937;
+  border: 5px solid #1f2937;
 }
 
 .action {
-    font-weight: bolder;
-    font-size: x-large;
+  font-weight: bolder;
+  font-size: x-large;
 }
-
